@@ -1,0 +1,12 @@
+node_modules
+dist
+*.local
+.env
+.env.local
+test-results
+playwright-report
+blob-report
+lighthouse/.tmp
+.DS_Store
+*.tsbuildinfo
+.tanstack
