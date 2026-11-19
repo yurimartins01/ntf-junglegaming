@@ -154,6 +154,8 @@ Lighthouse 13.6.0, Chrome 157, Windows 11, i5-14400F, build de produção com mo
 existe depois de baixar o JS, iniciar o worker do MSW e responder à API simulada; sob Slow 4G + CPU 4× isso soma ~3,4 s.
 Mitigações já aplicadas: preload de chunks, WebP gerado no build, MSW sem cookie jar (stub), imports tardios do socket.
 
-**Limitações / pendências:** o deploy público **não foi feito** (exige conta do avaliador/autor; `vercel.json` com rewrite SPA já incluído —
-`vercel --prod` ou conectar o repositório); conteúdo editorial, suporte e "Avaliações" estão como ações indisponíveis (fora do escopo);
+**Deploy:** https://ntf-junglegaming.vercel.app (Vercel, build de produção com mocks ativos; acesso direto e refresh das rotas
+funcionam via rewrite SPA do `vercel.json`).
+
+**Limitações / pendências:** conteúdo editorial, suporte e "Avaliações" estão como ações indisponíveis (fora do escopo);
 medidas do Figma foram estimadas a partir dos PNGs (sem acesso às camadas) — ver `ARCHITECTURE.md`.
